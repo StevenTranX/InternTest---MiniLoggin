@@ -1,0 +1,24 @@
+.input {
+  width: 92%;
+  &[type='text'] {
+    font-size: 12px;
+  }
+  font-size: 12px;
+  &::placeholder {
+    font-size: 10px;
+  }
+  padding: 10px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  &:focus {
+    border: 1px solid blue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+
+.errorMessage {
+  margin-top: 8px;
+  color: red;
+  font-size: 10px;
+}

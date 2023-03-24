@@ -1,0 +1,51 @@
+.input {
+  width: 92%;
+  &[type='text'] {
+    font-size: 12px;
+  }
+  font-size: 12px;
+  &::placeholder {
+    font-size: 10px;
+  }
+  padding: 10px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  &:focus {
+    border: 1px solid blue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+.title {
+  color: blueviolet;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.errorMessage {
+  margin-top: 8px;
+  color: red;
+  font-size: 10px;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 15px;
+  height: 28px;
+}
+
+.select {
+  border-radius: 6px;
+  width: 32%;
+  border: 1px solid gray;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid blueviolet;
+  }
+  &:focus {
+    border: 1px solid blue;
+  }
+  &:active {
+    border: 1px solid blue;
+  }
+}

@@ -1,0 +1,36 @@
+.formContainer {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px 30px;
+  border-radius: 10px;
+  .header {
+    .avatar {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      & > h2 {
+        color: purple;
+      }
+    }
+    .loginForm {
+      .formRow {
+        margin-bottom: 10px;
+        .label {
+          text-transform: capitalize;
+          color: blueviolet;
+          font-weight: 500;
+          margin-bottom: 7px;
+        }
+      }
+      .btnSubmit {
+        background-color: blueviolet;
+        border: 1px solid blueviolet;
+        padding: 7px 15px;
+        border-radius: 6px;
+        color: #fff;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    }
+  }
+}
