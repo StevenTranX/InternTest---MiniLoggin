@@ -26,12 +26,17 @@
       .logo {
         .logoImage {
           object-fit: cover;
-          width: 100px;
-          height: 100px;
+          width: 150px;
+          height: 150px;
         }
       }
       .welcome {
         margin: 5px 0px;
+        font-size: 20px;
+      }
+      .logoContent {
+        margin: 20px 0px;
+        font-size: 15px;
       }
       .btnContainer {
         gap: 15px;
@@ -42,6 +47,7 @@
           border: 1px solid white;
           border-radius: 6px;
           color: #fff;
+          font-size: 16px;
           cursor: pointer;
           &:hover {
             opacity: 0.8;

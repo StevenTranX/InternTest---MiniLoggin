@@ -1,15 +1,17 @@
 .inputWrapper {
   .inputDiv {
     position: relative;
+    margin-bottom: 20px;
     .input {
       width: 92%;
       display: block;
+      height: 30px;
       &[type='text'] {
-        font-size: 12px;
+        font-size: 15px;
       }
-      font-size: 12px;
+      font-size: 15px;
       &::placeholder {
-        font-size: 10px;
+        font-size: 15px;
       }
       padding: 10px;
       outline: none;

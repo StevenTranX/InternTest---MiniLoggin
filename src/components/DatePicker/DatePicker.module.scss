@@ -1,3 +1,7 @@
+.dateContainer {
+  margin: 10px 0px;
+}
+
 .input {
   width: 92%;
   &[type='text'] {
@@ -5,7 +9,7 @@
   }
   font-size: 12px;
   &::placeholder {
-    font-size: 10px;
+    font-size: 15px;
   }
   padding: 10px;
   outline: none;
@@ -20,6 +24,7 @@
   color: blueviolet;
   font-weight: 500;
   margin-bottom: 8px;
+  font-size: 20px;
 }
 
 .errorMessage {
@@ -32,12 +37,15 @@
   display: flex;
   gap: 15px;
   height: 28px;
+  margin: 22px 0px;
 }
 
 .select {
   border-radius: 6px;
   width: 32%;
   border: 1px solid gray;
+  height: 33px;
+
   cursor: pointer;
   &:hover {
     border: 1px solid blueviolet;

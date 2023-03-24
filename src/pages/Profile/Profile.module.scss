@@ -2,7 +2,7 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 30px 30px;
   border-radius: 10px;
-  min-width: 250px;
+  min-width: 300px;
   .header {
     .avatar {
       display: flex;
@@ -21,16 +21,19 @@
           color: blueviolet;
           font-weight: 500;
           margin-bottom: 7px;
+          font-size: 20px;
         }
       }
       .btnSubmit {
         background-color: blueviolet;
         border: 1px solid blueviolet;
-        padding: 7px 15px;
+        padding: 10px 20px;
+        margin-top: 20px;
         border-radius: 6px;
         color: #fff;
         font-weight: 500;
         cursor: pointer;
+        font-size: 20px;
       }
     }
   }
